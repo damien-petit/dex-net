@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # install apt deps
-sudo apt-get install cmake libvtk5-dev python-vtk python-sip python-qt4 libosmesa6-dev meshlab libhdf5-dev
+sudo apt-get -y install cmake libvtk5-dev python-vtk python-sip python-qt4 libosmesa6-dev meshlab libhdf5-dev
 
 # install pip deps
 pip install numpy scipy scikit-learn scikit-image opencv-python pyassimp tensorflow tensorflow-gpu h5py mayavi matplotlib catkin_pkg multiprocess dill cvxopt ipython pillow pyhull setproctitle trimesh

@@ -62,10 +62,15 @@ cd ..
 # install autolab modules
 cd ${MODULES_DIR}
 git clone https://github.com/BerkeleyAutomation/autolab_core.git
-git clone https://github.com/BerkeleyAutomation/perception.git
-git clone https://github.com/BerkeleyAutomation/gqcnn.git
+git clone -b test-realsense-image https://github.com/damien-petit/perception
+git clone -b test-realsense-image https://github.com/damien-petit/gqcnn
 git clone https://github.com/BerkeleyAutomation/meshpy.git
-git clone https://github.com/BerkeleyAutomation/visualization.git
+git clone -b test-realsense-image https://github.com/damien-petit/visualization
+#git clone https://github.com/BerkeleyAutomation/autolab_core.git
+#git clone https://github.com/BerkeleyAutomation/perception.git
+#git clone https://github.com/BerkeleyAutomation/gqcnn.git
+#git clone https://github.com/BerkeleyAutomation/meshpy.git
+#git clone https://github.com/BerkeleyAutomation/visualization.git
 
 # install meshpy
 cd meshpy
